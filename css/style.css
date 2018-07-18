@@ -1,0 +1,327 @@
+
+
+/* Jumbotron */
+
+
+.bg {
+  background: url('../img/Bridge1.jpg');
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  background-color: no-repeat;
+  width: 100%;
+  height: 100vh; /*same height as jumbotron */
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.jumbotron {
+  height: 1000px;
+  background: transparent;
+  margin-top: -150px;
+}
+
+.Name {
+    left: 0;
+    top: 50%;
+    width: 100%;
+    position: absolute;
+    color: rgb(255, 144, 0);
+    text-shadow: 5px 3px black;
+    font-size: 50px;
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.Job {
+    left: 0;
+    top: 61%;
+    width: 100%;
+    position: absolute;
+    color: rgb(255, 144, 0);
+    text-shadow: 3px 2px black;
+    font-size: 40px;
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Audiowide', cursive;
+}
+
+
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+a:hover {
+  color: rgb(255, 144, 0) !important;
+  text-decoration: none !important;
+}
+
+
+
+/* Header */
+
+.cover-container {
+  padding: 20px;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 15px;
+}
+.masthead-nav > li > a {
+  /* padding-right: 0; */
+  padding: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: #fff;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+  /* .masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+} */
+
+
+@media (min-width: 768px) {
+  .masthead-nav {
+    float: right;
+  }
+}
+
+
+
+
+body {
+  background-color: rgb(26, 144, 255);
+  color: #FFFFFF;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  margin: 0;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+/*.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+/* .site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+} */
+
+
+
+
+    /* About me section */
+
+.bgaboutme {
+  background-color: rgb(255, 102, 102);
+}
+
+  .AboutMe2 {
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+
+  }
+
+
+
+hr.star-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+
+
+
+  .My_Name {
+    font-family: 'Roboto Slab', serif;
+    font-size: 40px;
+    text-align: center;
+  }
+
+
+.img-center {
+    display: block;
+    margin: 0 auto;
+      }
+
+
+  /* Cont. about section */
+  .About-Me {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+}
+
+
+
+  /* Portfolio */
+
+  .Portfolio2 {
+   text-align: center;
+   font-size: 50px;
+   color: #ffffff;
+   font-family: 'Roboto Slab', serif;
+  }
+
+   .panel {
+    background-color: transparent;
+    border: transparent;
+  }
+    .panel-transparent .panel-heading .panel-title {
+    background-color: transparent;
+    border: transparent;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    color: white;
+ }
+
+    .panel-transparent .panel-body {
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+  }
+
+
+
+  /* Proficient */
+
+  .proficient {
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 100px;
+  }
+
+
+  .icon-text {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    color: white;
+  }
+
+
+
+/* footer */
+
+
+
+.text-center {
+  background-color: rgb(96,96,96);
+}
+
+.Contact3 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.Contact1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    color: white;
+}
+
+.Contact2 {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    color: white;
+}
+
+.modal-header,
+.close {
+    font-size: 20px;
+    color: black;
+}
+
+
+/* Social Medias and Messaging */
+.fa-fw {
+  text-align: center;
+}
+
+.fa {
+  display: inline-block;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  width: 1.28571429em;
+}
+
+.masthead-footer > li {
+  display: inline-block;
+}
+.masthead-footer > li + li {
+  margin-left: 20px;
+}
+.masthead-footer > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: #fff
+}
+.masthead-footer > li > a:hover,
+.masthead-footer > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+
+
+/* Whole Page */
+
+  }
+    body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+    .container {
+      padding: 100px 50px;
+    }
+
+    @media (min-width: 768px) {
+    .About-Me {
+    font-size: 26px;
+  }
+}
+
+    @media (min-width: 768px) {
+    body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
